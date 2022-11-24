@@ -1,0 +1,11 @@
+.search-history {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+  
+.search-form .btn {
+display:flex;
+justify-content:flex-end;
+text-align: right;
+}
