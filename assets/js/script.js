@@ -64,7 +64,7 @@ function appendToHistory(cityName) {
 // function for fetch request on coordinates of search form
 function getCoords(cityName) {
   var coordinates =
-    "http://api.openweathermap.org/geo/1.0/direct?q=" +
+    "https://api.openweathermap.org/geo/1.0/direct?q=" +
     cityName +
     "&appid=d94b396ad8a40ab56c235a99912e7f2e";
 
