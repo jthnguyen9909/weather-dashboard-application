@@ -39,7 +39,6 @@ function renderSearchHistory() {
     btn.addEventListener("click", function (event) {
       event.preventDefault();
       var cityClick = event.target.textContent;
-      console.log(cityClick);
       getCoords(cityClick);
     });
   }
@@ -58,7 +57,6 @@ function appendToHistory(cityName) {
   btn.addEventListener("click", function (event) {
     event.preventDefault();
     var cityClick = event.target.textContent;
-    console.log(cityClick);
     getCoords(cityClick);
   });
 }
